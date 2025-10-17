@@ -12,17 +12,68 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💼</text></svg>">
 </head>
 <body>
-    <div class="container">
-        <!-- Header Section -->
-        <header class="header">
-            <div class="profile-section">
-                <div class="profile-info">
-                    <h1 class="name">z</h1>
-                    <h2 class="title">Professional Title</h2>
-                    <p class="summary">
-                        Brief professional summary highlighting your key skills and experience. 
-                        This should be 2-3 sentences that capture your professional essence.
+    <!-- Navigation -->
+    <nav class="nav" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="generated-image.png" class="logo">
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hi, I'm</span>
+                        <span class="name-highlight">Kanishak Todwal</span>
+                    </h1>
+                    <!-- <h2 class="hero-subtitle typed-text">Full Stack Developer</h2> -->
+                    <h3>And I'm a  <span class="multiple-text"></span></h3>
+                    <p class="hero-description">
+                        I craft beautiful, responsive web applications with modern technologies.
+                        Passionate about creating exceptional user experiences and solving complex problems.
                     </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-eye"></i> View My Work
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-envelope"></i> Get In Touch
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Kannu20" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com/alexjohnson" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:alex@example.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
                 </div>
                 <div class="hero-image">
                     <div class="image-container">
@@ -231,6 +282,34 @@
                             <span class="tech-tag">Bootstrap</span>
                             <span class="tech-tag">CSS3</span>
                             <span class="tech-tag">JS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card scroll-animate-scale" data-category="design">
+                    <div class="project-image">
+                        <img src="https://incartmarketing.com/wp-content/uploads/blogging-SMB.png.png" alt="Weather Dashboard">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://blog-izeh.vercel.app/" class="project-link" aria-label="View Live">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/Kannu20/Blog-Website" class="project-link" aria-label="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Blog Website</h3>
+                        <p class="project-description">
+                           Built a dynamic blog website using the MERN stack, featuring user authentication, post creation, and real-time content updates. Designed for smooth performance and an engaging reading experience.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Express.js</span>
+                            <span class="tech-tag">Tailwind</span>
+                            <span class="tech-tag">MongoDB</span>
                         </div>
                     </div>
                 </div>
