@@ -54,6 +54,23 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
+=======
+span{
+    color: var(--main-color);
+}
+
+.portfolio-layer h4{
+   font-size: 3rem;
+}
+
+.multiple-text {
+  color: #5a4ff3;
+  font-weight: bold;
+}
+
+
+>>>>>>> 6070e18 (some update)
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 80px;
